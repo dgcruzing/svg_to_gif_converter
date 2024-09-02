@@ -42,4 +42,4 @@ Run `python svg_to_gif_converter.py` and follow the GUI prompts.
 - The first run may take longer as Windows security checks the application.
 - Some antivirus software may flag the .exe. This is a false positive due to how PyInstaller packages Python applications.
 
-For further assistance or to report issues, please contact [Your Contact Information or Project Repository URL].
+For further assistance work ask Claude :-).
