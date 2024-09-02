@@ -1,5 +1,7 @@
-# svg_to_gif_converter
+# SVG to GIF Converter
+
 This tool converts animated SVG files to GIF format with customizable resolution and animation settings.
+
 ## Setup
 
 1. Clone this repository
@@ -14,12 +16,13 @@ Run `python svg_to_gif_converter.py` and follow the GUI prompts.
 
 ## System Requirements
 - Windows 7 or later
-- Google Chrome browser installed (for ChromeDriver compatibility)
+- Google Chrome browser installed
+- ChromeDriver matching your Chrome version
 
 ## Installation
-1. Download the `svg_to_gif_converter.exe` file from the provided link or location.
+1. Download the `svg_to_gif_converter.exe` file from the provided release link.
 2. Download ChromeDriver that matches your Google Chrome version from [ChromeDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads).
-3. Extract the ChromeDriver executable (chromedriver.exe) and place it in the same folder as `svg_to_gif_converter.exe`.
+3. Place the ChromeDriver executable (chromedriver.exe) in the same folder as `svg_to_gif_converter.exe`.
 
 ## Using the Converter
 1. Double-click on `svg_to_gif_converter.exe` to run the program.
@@ -33,13 +36,26 @@ Run `python svg_to_gif_converter.py` and follow the GUI prompts.
 3. Click "Convert" to start the conversion process.
 4. Wait for the conversion to complete. A success message will appear when finished.
 
+## Running from Source (for developers)
+1. Ensure Python 3.7 or later is installed.
+2. Clone the repository or download the source code.
+3. Install required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Ensure ChromeDriver is in your system PATH or in the script's directory.
+5. Run the script:
+   ```
+   python svg_to_gif_converter.py
+   ```
+
 ## Troubleshooting
 - If you get an error about ChromeDriver, make sure it's in the same folder as the .exe and matches your Chrome version.
 - If the application doesn't open, try running it as administrator.
-- For any other issues, check the console output for error messages.
+- For any issues, check the console output for error messages.
 
 ## Notes
 - The first run may take longer as Windows security checks the application.
 - Some antivirus software may flag the .exe. This is a false positive due to how PyInstaller packages Python applications.
 
-For further assistance work ask Claude :-).
+For further assistance ask claude :-)
